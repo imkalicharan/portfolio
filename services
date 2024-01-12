@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalicharan Bhakat - Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+          <div class="left"><a href="index.html"> Kalicharan Bhakat</a></div>
+          <div class="right">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutme.html">About Me</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contactme.html">Contact Me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+    <main class="main">
+
+    <section class="fourthSection">
+        <p class="textgrayupdate">What I can do for you</p>
+        <h1>Services</h1>
+        <div class="row">
+
+            <div class="services">
+                <h2>Web Design</h2>
+                <p>Fully customize website from design to develop, End to end services.</p>
+            </div>
+            <div class="services">
+                <h2>Graphic Design</h2>
+                <p>Logo Design, Custom Business Card Design, Poster Design, Brochure Design</p>
+            </div>
+            <div class="services">
+                <h2>Social Media Marketing</h2>
+                <p>Design social postar for social media handles to upload there. Also, provide advertisement, Text ad
+                    creation and network set up</p>
+            </div>
+            <div class="services">
+                <h2>Data Analysis</h2>
+                <p>reviews data to identify key insights into a business's customers and ways the data can be used to
+                    solve
+                    problems</p>
+            </div>
+            <div class="services">
+                <h2>App Development</h2>
+                <p>Mobile app development services are aimed at building iOS & Android applications that effectively
+                    complement or substitute web solutions.</p>
+            </div>
+            <div class="services">
+                <h2>AI Services</h2>
+                <p>prebuilt machine learning models that make it easier for developers to apply AI to applications and
+                    business operations</p>
+            </div>
+
+
+        </div>
+    </section>
+
+</main>
+
+</body>
+
+</html>
