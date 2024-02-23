@@ -405,3 +405,53 @@ button:hover{
   background: #5c4c8e;
   transform: scale(1.05);
 }
+
+/* for mobile responsive */
+@media screen and (min-width: 320px) and (max-width: 426px) {
+  *{
+    overflow: auto;
+
+  }
+  .firstSection {
+    display: block;
+    margin: 0px;
+  }
+  .leftSection img {
+    width: 60%;
+  }
+  .rightSection {
+    font-size: 25px;
+    margin: 20px;
+  }
+
+.secondSection {
+  visibility: hidden;
+}
+
+/* skills section */
+.skills-content {
+  display: block;
+  overflow: hidden;
+}
+.skills-content>div {
+  width: 100%;
+}
+.column-left {
+  margin: 27px 0px;
+}
+.column-right {
+  width: 560px;
+  margin: -25px auto;
+}
+
+/* Contact Info */
+.fifthSection {
+    margin: 0px 15px;
+    width: 100%;
+    overflow: hidden;
+}
+form {
+  width: fit-content;
+  place-items: center;
+  margin: 0px 0px 0px 0px;
+}
