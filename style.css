@@ -443,6 +443,12 @@ button:hover{
 }
 
 /* skills section */
+   .thirdSection {
+    max-width: fit-content;
+    margin: 0px  12px;
+    height: max-content;
+}
+  
 .skills-content {
   display: block;
   overflow: hidden;
