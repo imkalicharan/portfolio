@@ -466,12 +466,34 @@ button:hover{
 
 /* Contact Info */
 .fifthSection {
-    margin: 0px 15px;
-    width: 100%;
-    overflow: hidden;
+    max-width: unset;
+    margin: 5px;
+    height: max-content;
+  }
+
+  form {
+    place-items: center;
+    margin: 0px auto;
+    width: 80%;
 }
-form {
-  width: fit-content;
-  place-items: center;
-  margin: 0px 0px 0px 0px;
+
+input, textarea {
+  width: 92%;
+}
+   /* footer section */
+
+  .footer {
+    display: block;
+    padding: 24px 6px;
+    justify-content: space-between;
+    height: 185px;
+}
+
+footer ul li a {
+  font-size: 10px;
+}
+
+.footerThird {
+  text-align: center;
+  margin: 35px 0px 0px 0px;
 }
